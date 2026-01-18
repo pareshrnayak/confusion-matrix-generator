@@ -81,9 +81,6 @@ http://localhost:8501
 > Open it in your browser to use the app.
 
 
-
-
-
 ---
 
 ## 🤝 Contributing
