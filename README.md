@@ -35,19 +35,53 @@ No installation required — simply upload a CSV file or enter labels manually a
 
 ---
 
-## Installation
+## 🖥️ Run the App Locally (Step-by-Step)
 
-Clone the repository and install dependencies:
+Follow these steps to run the Confusion Matrix Generator on your local machine.
+
+### Step 1: Clone the Repository
+
+Open your terminal and run:
 
 ```bash
-git clone https://github.com/your-username/confusion-matrix-generator.git
+git clone https://github.com/pareshrnayak/confusion-matrix-generator.git
+```
 
+### Step 2: Move into the Project Directory
+
+```bash
 cd confusion-matrix-generator
+```
 
+### Step 3: Install Dependencies
+
+Make sure `Python` and `pip` are installed before running this command.
+
+```bash
 pip install -r requirements.txt
+```
 
+> Virtual Environments (`venv`) are optional.
+> This works without creating one.
+
+### Step 4: Run the Streamlit App
+
+```bash
 python -m streamlit run app.py
 ```
+
+### Step 5: Open in Browser
+
+Once the app starts, you will see a local URL like:
+
+```bash
+http://localhost:8501
+```
+
+> Open it in your browser to use the app.
+
+
+
 
 
 ---
