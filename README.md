@@ -83,6 +83,21 @@ http://localhost:8501
 
 ---
 
+## Project Structure
+
+```bash
+confusion-matrix-generator/
+├── app.py                 # Main Streamlit application
+├── requirements.txt       # Python dependencies
+├── README.md              # Project overview
+├── assets/
+│   └── mockup.png         # UI mockup image
+├── .gitignore             # Ignored files
+└── LICENSE                # MIT License
+```
+
+---
+
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!  
 Feel free to fork this repo and submit a pull request.
